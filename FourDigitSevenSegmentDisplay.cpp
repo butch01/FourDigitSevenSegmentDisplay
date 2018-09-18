@@ -77,6 +77,77 @@ void FourDigitSevenSegmentDisplay::writeCharToDigit(int digitNumber, char charTo
 		myShiftRegisterPointer.setNewValueBit(myRegG, myRegGPin, 1);
 		break;
 
+	case '3':
+		myShiftRegisterPointer.setNewValueBit(myRegA, myRegAPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegB, myRegBPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegC, myRegCPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegD, myRegDPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegE, myRegEPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegF, myRegFPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegG, myRegGPin, 1);
+		break;
+
+	case '4':
+		myShiftRegisterPointer.setNewValueBit(myRegA, myRegAPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegB, myRegBPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegC, myRegCPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegD, myRegDPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegE, myRegEPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegF, myRegFPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegG, myRegGPin, 1);
+		break;
+
+	case '5':
+		myShiftRegisterPointer.setNewValueBit(myRegA, myRegAPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegB, myRegBPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegC, myRegCPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegD, myRegDPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegE, myRegEPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegF, myRegFPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegG, myRegGPin, 1);
+		break;
+
+	case '6':
+		myShiftRegisterPointer.setNewValueBit(myRegA, myRegAPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegB, myRegBPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegC, myRegCPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegD, myRegDPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegE, myRegEPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegF, myRegFPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegG, myRegGPin, 1);
+		break;
+
+	case '7':
+		myShiftRegisterPointer.setNewValueBit(myRegA, myRegAPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegB, myRegBPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegC, myRegCPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegD, myRegDPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegE, myRegEPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegF, myRegFPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegG, myRegGPin, 0);
+		break;
+
+	case '8':
+		myShiftRegisterPointer.setNewValueBit(myRegA, myRegAPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegB, myRegBPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegC, myRegCPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegD, myRegDPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegE, myRegEPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegF, myRegFPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegG, myRegGPin, 1);
+		break;
+
+	case '9':
+		myShiftRegisterPointer.setNewValueBit(myRegA, myRegAPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegB, myRegBPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegC, myRegCPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegD, myRegDPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegE, myRegEPin, 0);
+		myShiftRegisterPointer.setNewValueBit(myRegF, myRegFPin, 1);
+		myShiftRegisterPointer.setNewValueBit(myRegG, myRegGPin, 1);
+		break;
+
+
 	default:
 		// do if no match
 		break;
